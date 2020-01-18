@@ -9,15 +9,15 @@
   ],
   "license" : "MIT",
   "require": {
-    "illuminate/database",
-    "illuminate/support",
-    "illuminate/container",
-    "illuminate/events",
+    "illuminate/database": "@stable",
+    "illuminate/support": "@stable",
+    "illuminate/container": "@stable",
+    "illuminate/events": "@stable",
     "doctrine/couchdb": "^2.0.0-alpha1",
     "adbario/php-dot-notation": "^1.2"
   },
   "require-dev":{
-    "laravel/passport",
+    "laravel/passport": "@stable",
     "phpunit/phpunit": "@stable",
     "orchestra/testbench": "^3.1",
     "mockery/mockery": "^0.9"
